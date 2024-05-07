@@ -117,12 +117,12 @@ cronet-embedded = { group = "org.chromium.net", name = "cronet-embedded", versio
 # Media
 androidx-media = { group = "androidx.media", name = "media", version.ref = "androidx-media" }
 androidx-mediarouter = { group = "androidx.mediarouter", name = "mediarouter", version.ref = "androidx-mediarouter" }
-androidx-media3-core = { group = "androidx.media3", name = "media3-core", version.ref = "androidx-media3" }
+androidx-media3-core = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "androidx-media3" }
 androidx-media3-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "androidx-media3" }
 androidx-media3-session = { group = "androidx.media3", name = "media3-session", version.ref = "androidx-media3" }
-androidx-media3-hls = { group = "androidx.media3", name = "media3-hls", version.ref = "androidx-media3" }
+androidx-media3-hls = { group = "androidx.media3", name = "media3-exoplayer-hls", version.ref = "androidx-media3" }
 androidx-media3-cast = { group = "androidx.media3", name = "media3-cast", version.ref = "androidx-media3" }
-androidx-media3-cronet = { group = "androidx.media3", name = "media3-cronet", version.ref = "androidx-media3" }
+androidx-media3-cronet = { group = "androidx.media3", name = "media3-datasource-cronet", version.ref = "androidx-media3" }
 playservices-cast = { group = "com.google.android.gms", name = "play-services-cast", version.ref = "playservices" }
 playservices-castframework = { group = "com.google.android.gms", name = "play-services-cast-framework", version.ref = "playservices" }
 jellyfin-exoplayer-ffmpegextension = { group = "org.jellyfin.exoplayer", name = "exoplayer-ffmpeg-extension", version.ref = "jellyfin-exoplayer-ffmpegextension" }
